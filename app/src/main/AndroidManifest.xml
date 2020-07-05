@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.xuexiang.templateproject">
+    package="cn.acyou.scorpio">
 
     <!--进程杀死-->
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
@@ -20,6 +20,7 @@
         tools:ignore="LockedOrientationActivity"
         tools:targetApi="n">
 
+        <!-- 启动页 -->
         <activity
             android:name=".activity.SplashActivity"
             android:configChanges="screenSize|keyboardHidden|orientation|keyboard"
@@ -33,6 +34,7 @@
             </intent-filter>
         </activity>
 
+        <!-- 主页 -->
         <activity
             android:name=".activity.MainActivity"
             android:configChanges="screenSize|keyboardHidden|orientation|keyboard"
